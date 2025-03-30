@@ -18,9 +18,9 @@
 }
 
 .InputContainer {
-    display: flex;
-    flex-direction: column;
-    width: 70%;
+  display: flex;
+  flex-direction: column;
+  width: 70%;
 }
 
 .InputContainer input {
@@ -46,13 +46,55 @@
 
 .InputWrapper {
   display: flex;
+  justify-content: space-around;
   background-color: white;
   border: var(--second-color) 1px solid;
   border-radius: 10px;
-  width: 100%;
   height: 50px;
   display: flex;
   align-items: center;
-  padding-left: 10px;
+  padding: 0px 8px 0px 8px;
   flex-direction: row;
+}
+
+.btnViewPassword {
+  outline: none;
+  background-color: white;
+  border: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.helpForLogin {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 10px;
+}
+.rememberMe {
+  display: flex;
+  flex-direction: row;
+  font-size: 12px;
+  color: var(--second-color);
+  padding-bottom: 8px;
+  font-weight: 500;
+}
+.forgotPassword {
+  font-size: 12px;
+  color: var(--second-color);
+  font-weight: 500;
+  text-decoration: underline;
+}
+span{
+  white-space: nowrap;
+}
+
+.btnSignIn{
+  background-color: var(--second-color);
+  color: white;
+  border-radius: 10px;
+  width: 80%;
+  height: 50px;
 }
